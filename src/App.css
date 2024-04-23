@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+
+.App {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  box-sizing: border-box;
+  /* border: 1px solid gray; */
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  gap: 10px;
+  font-family: 'Single Day', cursive;
+  background: #2a2a2a;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 10px;
+}

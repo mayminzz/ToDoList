@@ -1,0 +1,31 @@
+.TodoEditor .editor_wrapper {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+.TodoEditor input {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 15px;
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 5px;
+}
+.TodoEditor input:focus {
+  outline: none;
+  border: 1px solid pink;
+}
+.TodoEditor button {
+  cursor: pointer;
+  width: 80px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  background: pink;
+  transition: 0.3s;
+  font-weight: 900;
+}
+.TodoEditor button:hover {
+  color: pink;
+  border: 2px solid pink;
+  background: #fff;
+}
